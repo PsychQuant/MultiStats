@@ -39,7 +39,7 @@ public struct LiveUsageFetcher: UsageFetching {
 }
 
 /// Fetches and decodes plan usage for one account's access token.
-public struct UsageClient {
+public struct UsageClient: Sendable {
     private let fetcher: UsageFetching
 
     public init(fetcher: UsageFetching = LiveUsageFetcher()) { self.fetcher = fetcher }

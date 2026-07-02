@@ -104,7 +104,7 @@ public struct SystemKeychainReader: KeychainReading {
 
 /// Reads and parses an account's stored credentials, wiring the service-name
 /// computation to the injected Keychain backend.
-public struct KeychainCredentialsReader {
+public struct KeychainCredentialsReader: Sendable {
     private let keychain: KeychainReading
 
     public init(keychain: KeychainReading = SystemKeychainReader()) {
