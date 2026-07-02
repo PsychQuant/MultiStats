@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode / SwiftPM
+.build/
+DerivedData/
+Package.resolved
+.swiftpm/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+
+# Editor
+.vscode/
+*.code-workspace
+*.swp
+*~
+
+# Claude Code — keep repo-level config (.claude/.idd/ etc.), ignore local-only bits
+.claude/settings.local.json
+.remember/
+
+# Local notes
+NOTES.md
+TODO.local.md
