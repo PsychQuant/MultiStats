@@ -23,3 +23,5 @@ xcuserdata/
 # Local notes
 NOTES.md
 TODO.local.md
+.spectra/
+openspec/.vector-search.db*
