@@ -90,8 +90,8 @@ public struct UsageClient: Sendable {
                 limitDollars: window.limit_dollars,
                 remainingDollars: window.remaining_dollars))
         }
-        append(response.five_hour, id: "five_hour", label: "Session (5h)")
-        append(response.seven_day, id: "seven_day", label: "Weekly (7d)")
+        append(response.five_hour, id: "five_hour", label: "工作階段（5 小時）")
+        append(response.seven_day, id: "seven_day", label: "每週（7 天）")
         return PlanUsage(windows: windows)
     }
 
