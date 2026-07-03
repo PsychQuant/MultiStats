@@ -1,8 +1,8 @@
 # MultiStats
 
-> Native macOS app that shows Claude Code usage stats (`/usage`) for **multiple accounts** side by side — session cost, plan usage, and activity stats in one window.
+> **📦 This repo has merged into [`PsychQuant/logos`](https://github.com/PsychQuant/logos)** (change `merge-multistats-into-logos`, 2026-07-03). The code now lives there as the `LogosAccounts` / `LogosUsage` targets plus a thin `MultiStats` executable — build the standalone viewer from the logos repo with `swift run MultiStats`. Git history was merged in full, and open issues were transferred ([logos#51](https://github.com/PsychQuant/logos/issues/51), [logos#52](https://github.com/PsychQuant/logos/issues/52), [logos#53](https://github.com/PsychQuant/logos/issues/53)). This repo is archived and read-only.
 
-**Status**: repo scaffold only. Implementation proceeds via IDD (issue-driven development).
+> Native macOS app that shows Claude Code usage stats (`/usage`) for **multiple accounts** side by side — session cost, plan usage, and activity stats in one window.
 
 ## Why this exists
 
